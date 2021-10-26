@@ -131,7 +131,7 @@ function error ( $errlog, $errmsg ) {
   			<input type="text" id="image" name="image" value=""><br><br>
   	 		<input type="hidden" id="postID" name="postID" value="<?php print $_GET["thread"];?>">
   			<input type="submit" value="post" id="submit">
-  			<a href="http://localhost:9001/cs343f20/az8282/project/login.php">login/sign up to comment</a>
+  			<a href="http://localhost:9001/path to project/login.php">login/sign up to comment</a>
 		</form>
 	<table>
 		<?php 
