@@ -17,7 +17,7 @@ if($_SESSION["user"] != null){
     $stmt = mysqli_prepare($link,$query);
     mysqli_stmt_bind_param($stmt,'sss',$_POST["name"], $_SESSION["user"], $_POST["description"]);
 	if(mysqli_stmt_execute($stmt)){
-  		header("Location: http://localhost:9001/cs343f20/az8282/project/");
+  		header("Location: http://localhost:9001/ path to project/");
   		die();
 	}else{
 		print "ERROR: ";
