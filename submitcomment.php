@@ -19,7 +19,7 @@ if($_SESSION["user"] != null){
 
     mysqli_stmt_bind_param($stmt,'sssss', $_POST["postID"], $_SESSION["user"], $_POST["body"], date("y/m/d h:i:s"), $_POST["image"]);
 	if(mysqli_stmt_execute($stmt)){
-  		header("Location: http://localhost:9001/cs343f20/az8282/project/viewthread.php?thread=".$_POST["postID"]);
+  		header("Location: http://localhost:9001/path to project/viewthread.php?thread=".$_POST["postID"]);
   		die();
 	}else{
 		print "ERROR: ";
