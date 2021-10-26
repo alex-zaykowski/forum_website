@@ -97,7 +97,7 @@ function error ( $errlog, $errmsg ) {
   			<input type="text" id="image" name="image" value=""><br><br>
   	 		<input type="hidden" id="boardID" name="boardID" value="<?php print $_GET["board"];?>">
   			<input type="submit" value="post" id="submit">
-  			<a href="http://localhost:9001/cs343f20/az8282/project/login.php">login/sign up to post</a>
+  			<a href="http://localhost:9001/path to project/login.php">login/sign up to post</a>
 		</form>
 
 	<table>
