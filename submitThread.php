@@ -19,7 +19,7 @@ if($_SESSION["user"] != null){
     mysqli_stmt_bind_param($stmt,'ssssss',$_POST["boardID"], $_SESSION["user"], $_POST["title"], date("y/m/d"), $_POST["image"], 
     $_POST["body"]);
 	if(mysqli_stmt_execute($stmt)){
-  		header("Location: http://localhost:9001/cs343f20/az8282/project/viewboard.php?board=".$_POST["boardID"]);
+  		header("Location: http://localhost:9001/path to project/viewboard.php?board=".$_POST["boardID"]);
   		die();
 	}else{
 		print "ERROR: ";
