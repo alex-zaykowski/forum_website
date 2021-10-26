@@ -22,11 +22,11 @@ if($_POST["username"] != null && $_POST["password"] != null){
 		if(mysqli_stmt_fetch($stmt)){
 			session_start();
   			$_SESSION["user"] = $username;
-  			header("Location: http://localhost:9001/cs343f20/az8282/project");
+  			header("Location: http://localhost:9001/path to project");
   			die();
   			
 		}else{
-			header("Location: http://localhost:9001/cs343f20/az8282/project/login.php");
+			header("Location: http://localhost:9001/path to project/login.php");
   			die();
   			print "Incorrect login";
 		}
