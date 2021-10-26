@@ -23,7 +23,7 @@ if($_POST["username"] != null && $_POST["password"] != null){
 		session_start();
   		$_SESSION["user"] = $_POST["username"];
 
-  		header("Location: http://localhost:9001/cs343f20/az8282/project");
+  		header("Location: http://localhost:9001/path to project");
   		die();
 
 	}else{
