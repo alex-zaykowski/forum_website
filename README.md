@@ -1,5 +1,5 @@
 # Forum Website
-#Introduction: 
+# Introduction: 
 
 My idea is to make a basic social media site that will allow people to follow other users and post threads and replies to threads within different message boards. The message boards will consist of two variants, closed boards (open to specific users) and general boards (open to everyone). Admins can create different boards as they see fit. This site will be open to anyone looking to discuss topics specified by each board. It will function similarly to Reddit and old forum sites in that it uses threads and replies over timelines and follower feeds, however it will differ since users can follow other users. Users can vote on threads to determine where they show up on the board’s homescreen (higher votes show up first). Users can also add friends and will be alerted when they post and can see an archive of their posts.
 
